@@ -14,4 +14,4 @@ app.use(createLoading());
   app.use(plugin);
 });
 
-app.model({ namespace: 'music', ...(require('D:/vm/workspace/src/models/music.js').default) });
+app.model({ namespace: 'music', ...(require('/home/dev/workspace/src/models/music.js').default) });
